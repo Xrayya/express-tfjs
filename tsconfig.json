@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "pretty": true,
+  },
+  "include": ["./src/**/*", "./dummy_data/**/*"],
+  "exclude": ["./src/drizzle/migration.ts"]
+}
+
